@@ -1,4 +1,4 @@
-matplotlib.pylpot
+matplotlib.pyplot
 numpy
 pandas
 keras.models
