@@ -13,4 +13,3 @@ numpy
 xgboost 
 pandas_datareader
 openai
-re
