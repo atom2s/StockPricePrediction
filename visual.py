@@ -41,7 +41,7 @@ end = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
 #label
 st.title('Stock Price Prediction')
 
-ticker= st.text_input('Enter The name of the Company','AAPL')
+ticker= st.text_input('Enter stock ticker of the Company','AAPL')
 # user_input = 'find me the  stock ticker name of '+input_only+' from yahoo finance. The name should be with in inverted comma'
 # answer = find(user_input)
 # ticker = re.findall('"([^"]*)"', answer)[0] #find the data which is with in inverted comma
