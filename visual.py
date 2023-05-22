@@ -49,7 +49,7 @@ ticker= st.text_input('Enter stock ticker of the Company','AAPL')
 # st.subheader("Showing the Historical data of "+ticker)
 
 df = pdr.get_data_yahoo(ticker, start, end)
-df.to_csv(r'C:\Users\atom\Desktop\Project 8th Sem\CSV\file.csv')
+# df.to_csv(r'C:\Users\atom\Desktop\Project 8th Sem\CSV\file.csv')
 
 
 
