@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 st.title('Predicting The Data Using LSTM')
-df = pd.read_csv(r"C:\Users\atom\Desktop\Project 8th Sem\CSV\file.csv")
+df = pd.read_csv(r"file.csv")
 
 
 #split data into traing and testing
